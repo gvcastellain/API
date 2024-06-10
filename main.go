@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-	"web/apifilme/models"
 
 	"github.com/gorilla/mux"
+	"github.com/gvcastellain/API/models"
 )
 
 var movies []models.Movie
